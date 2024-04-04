@@ -22,7 +22,7 @@ const arrowMyMap = (arr, cb) => {
   let newArr = [];
 
   for (i = 0, i < arr.length; i++) {
-    newArr.push(cb(arr[i], i, arry));
+    newArr.push(cb(arr[i], i, arr));
   }
 
   return newArr

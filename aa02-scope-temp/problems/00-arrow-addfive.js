@@ -19,9 +19,9 @@ let addFive = num => {return num + 5};
 
 // For comparison, THIS is what the function would look like with regular syntax:
 
-// function addFiveLong(num) {
-//   return num + 5;
-// }
+function addFiveLong(num) {
+  return num + 5;
+}
 
 let result1 = addFive(0); // returns 5
 let result2 = addFive(10); // returns 15
