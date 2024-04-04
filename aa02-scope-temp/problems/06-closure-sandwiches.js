@@ -22,6 +22,7 @@ function sandwichMaker() {
   console.log(ingredients)
 
   return function(ingredient) {
+    console.log(ingredient)
     if (ingredient) {
       ingredients.push(ingredient)
     }
