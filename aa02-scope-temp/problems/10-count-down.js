@@ -28,7 +28,18 @@ Example 4:
 
 ***********************************************************************/
 
-// Your code here 
+const countDownTimer = (n) => {
+  if (n > 0) {
+    return function() {
+      for (let i = n; i > 0; i--) {
+        return function() {
+
+        }
+      }
+    }
+  }
+  return "Happy New Year!"
+}
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
